@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<title>Bootstrap</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="icon" href="https://pluspng.com/img-png/bootstrap-png-bootstrap-512.png">
+</head>
+<body>
+
+<div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#">Responsive Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" 
+            data-target="#navbarCollapse" aria-controls="navbarCollapse"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!--Vänstra navigationslänkar-->
+                <ul class="navbar-nav mr-auto">
+
+                    <!--Aktiva navigationslänkar-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+                    <!--Vanliga navigationslänkar-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+
+                <!--Högra navigationslänkar-->
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</div>
+
+<div class="container-fluid">
+    <div class="jumbotron">
+        <h1 class="display-2">Geometri</h1>
+        <p class="lead">I kapitlet om geometri repeterar vi vanligt förekommande geometriska figurer och tredimensionella kroppar, hur vi beräknar omkrets, area och volym, samt Pythagoras sats. Vi studerar även trigonometri och använder oss av vektorer för att beskriva storheter som har både en storlek och en riktning.</p>
+        <a class="btn btn-lg btn-primary" href="#" role="button">Call to Action &#187;</a>
+    </div>
+
+    <!--Nästlade kolumner-->
+    <div class="row">
+
+        <!--Första nästlade kolumnen-->
+        <div class="col-md">
+            <h3 class="display-4">Omkrets och area</h3>
+            <p>
+                I det här avsnittet undersöker vi hur vi kan beräkna omkrets och area för ett antal vanligt förekommande geometriska figurer.
+            </p>
+            <a href="#" class="btn btn-primary">Knapp</a>
+        </div>
+        <!--Andra nästlade kolumnen-->
+        <div class="col-md">
+            <h3 class="display-4">Vektorer</h3>
+            <p>
+                Vi bekantar oss med vektorer, vilka är storheter som har både storlek och riktning, och studerar några viktiga egenskaper som vektorer kan ha.
+            </p>
+            <a href="#" class="btn btn-primary">Knapp</a>
+        </div>
+        <!--Tredje nästlade kolumnen-->
+        <div class="col-md">
+            <h3 class="display-4">Pythagoras sats</h3>
+            <p>
+                Vi tittar på Pythagoras sats som handlar om sambandet mellan längden på sidorna i en rätvinklig triangel.
+            </p>
+            <a href="#" class="btn btn-primary">Knapp</a>
+        </div>
+    </div>
+
+    <footer class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <p class="text-center">Design av <a href="#">Gustav Persson &copy;</a></p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
